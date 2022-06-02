@@ -1,5 +1,5 @@
 /* add a header style*/
-/* note: the text-align property does not work, I had to add alignment manually to the html tag... fucking *sigh*, why is CSS so fucking finnicky??? */
+/* note: the text-align property does not work, I had to add alignment manually to the html tag... why is CSS so finnicky??? */
 .header {
 	font-size: 56px;
 	text-align: center;
