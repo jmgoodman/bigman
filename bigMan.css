@@ -1,0 +1,64 @@
+/* add a header style*/
+/* note: the text-align property does not work, I had to add alignment manually to the html tag... fucking *sigh*, why is CSS so fucking finnicky??? */
+.header {
+	font-size: 56px;
+	text-align: center;
+}
+
+/* fade-in class, which I assume is a wrapper for deciding which browser-specific fade-in routine to call */
+/* https://medium.com/cloud-native-the-gathering/how-to-use-css-to-fade-in-and-fade-out-html-text-and-pictures-f45c11364f08 */
+.fade-in {
+	animation: fadeIn ease 10s;
+	-webkit-animation: fadeIn ease 10s;
+	-moz-animation: fadeIn ease 10s;
+	-o-animation: fadeIn ease 10s;
+	-ms-animation: fadeIn ease 10s;
+}
+
+
+/* keyframes at-rules */
+/* a directive to give to the browser */
+/* note the presence of several different at-rules for different browsers */
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
