@@ -4,7 +4,7 @@ addTextFun = function() {
 	const el = document.createElement("div");
 	el.classList.add("fade-in");
 	el.innerHTML = `<p align="center">Big Man struts along, he's licking his wounds,</p>
-			<p align="center">Big Man's Bigger Man got a lick or two.</p>
+			<p align="center">Big Man's Bigger Man got in a lick or two.</p>
 			<p align="center">Big Man's beat down, got a lot to prove,</p>
 			<p align="center">Big Man, little man, beat him black & blue.</p>
 			<br>`;
